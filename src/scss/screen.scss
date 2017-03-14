@@ -1,14 +1,37 @@
 @import 'base/variables';
-
 @import 'base/normalize';
 @import 'base/global';
 
-// Import Components
-// @import 'components/header';
 
-// Import Layouts
-// @import 'layouts/home';
+body {
+    width: 100%; 
+}
 
-// Import Plugins
-// @import 'plugins/plugin';
+#main-content {
+    width: 700px; 
+    margin: 0 auto; 
 
+    section {
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+        div {
+            width: 100px; 
+            margin: 20px; 
+            border: 1px solid #ccc; 
+            box-shadow: 1px 1px 3px #aaa; 
+            
+            p {
+                margin: 0; 
+                text-align: justify;
+                font-size: 8pt; 
+                padding: 10px;
+            }
+
+        }
+    }
+}
+
+h1 {
+    text-align: center; 
+}

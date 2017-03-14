@@ -1,7 +1,7 @@
 {
-  "name": "html5-gulp-boilerplate",
+  "name": "flex-sandbox",
   "version": "0.0.1",
-  "description": "A place to start.",
+  "description": "display: flex",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
